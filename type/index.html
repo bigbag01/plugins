@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>demo</title>
+</head>
+<body>
+	<div id="example">
+		test test test
+	</div>
+	<div id="example2">
+		try try try
+	</div>
+</body>
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="typing.js"></script>
+<script src="jquery-typing.js"></script>
+<script type="text/javascript">
+	$('#example').Type();
+	var options={
+		repeat:true,
+		speed:1000
+	}
+	new Type(document.getElementById('example2'),options);
+</script>
+</html>
